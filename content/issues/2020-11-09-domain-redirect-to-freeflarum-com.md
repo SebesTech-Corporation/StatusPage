@@ -10,7 +10,7 @@ affected:
   - Forum
 severity: down
 ---
-*Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud
+*Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud {{< track "2020-11-09 15:40:00" >}}
 
 *Completing -* Just some steps to resolve this incident...
 
