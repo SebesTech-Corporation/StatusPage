@@ -5,7 +5,7 @@ date: 2020-11-09T11:54:42.116Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2020-11-09T11:54:42.161Z
+resolvedWhen: ""
 affected:
   - OrgsTechnic
 severity: notice
