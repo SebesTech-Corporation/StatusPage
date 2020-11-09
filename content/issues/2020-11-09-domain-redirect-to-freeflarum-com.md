@@ -10,7 +10,7 @@ affected:
   - Forum
 severity: notice
 ---
-*Monitoring -* Issue is being solved, now just monitoring results.
+*Monitoring -* Issue is being solved, now just monitoring results. {{< track "2020-11-09 21:35:00" >}}
 
 *Identified -* Connection Not Secure error -> I am currently working on it...
 
