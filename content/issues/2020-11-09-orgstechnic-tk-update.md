@@ -8,6 +8,6 @@ informational: false
 resolvedWhen: ""
 affected:
   - orgstechnic.tk GitHub
-severity: notice
+severity: disrupted
 ---
 *Updating* - I am currently updating this page.
