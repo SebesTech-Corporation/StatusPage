@@ -75,7 +75,7 @@
 
           <span class="component-status">
             {{ if $thisIsDown }}
-              <span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span> {{ T "thisIsDown" }}
+              {{ T "thisIsDown" }}
             {{ else }}
             {{ if $thisIsDisrupted }}
               {{ T "thisIsDisrupted" }}
@@ -83,7 +83,7 @@
             {{ if $thisIsNotice }}
               {{ T "thisIsNotice" }}
             {{ else }}
-              {{ T "thisIsOk" }}
+              <span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span> {{ T "thisIsOk" }}
             {{ end }}{{ end }}{{ end }}
           </span>
 
