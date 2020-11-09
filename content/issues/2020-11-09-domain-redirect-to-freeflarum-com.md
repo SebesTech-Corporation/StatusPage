@@ -8,9 +8,9 @@ informational: false
 resolvedWhen: ""
 affected:
   - Forum
-severity: down
+severity: notice
 ---
-*Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud {{< track "2020-11-09 15:40:00" >}}
+*Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud
 
 *Completing -* Just some steps to resolve this incident...
 
