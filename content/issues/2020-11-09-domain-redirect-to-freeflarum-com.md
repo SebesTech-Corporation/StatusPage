@@ -10,6 +10,8 @@ affected:
   - Forum
 severity: notice
 ---
+*Monitoring -* Founded a result, so it works now.
+
 *Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud
 
 *Completing -* Just some steps to resolve this incident...
