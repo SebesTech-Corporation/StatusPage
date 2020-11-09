@@ -9,7 +9,7 @@ params:
   down: "#e60000"
   systems:
     - name: MultiBot
-      category: Main
+      category: ŠebesTech
       description: Multipurpose bot developed by ŠebesTech.
     - name: sebestik.tk GitHub
       category: Websites
@@ -29,6 +29,9 @@ params:
     - name: OrgsMusic
       category: OrgsStudio
       description: Music Bot developed by OrgsStudio.
+    - name: Forum
+      category: ŠebesTech
+      description: Forum website (https://forum.sebestik.tk)
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   headerTextColor: black
