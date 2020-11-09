@@ -10,6 +10,8 @@ affected:
   - Forum
 severity: notice
 ---
+*Monitoring -* Issue is being solved, now just monitoring results.
+
 *Identified -* Connection Not Secure error -> I am currently working on it...
 
 *Monitoring -* Founded a result, so it works now.
