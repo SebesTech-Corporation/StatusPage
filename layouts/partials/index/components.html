@@ -75,15 +75,15 @@
 
           <span class="component-status">
             {{ if $thisIsDown }}
-              {{ T "thisIsDown" }}
+              <span class="iconify" data-icon="ion:close" data-inline="false" style="color: #e60000; padding-top: 4px;"></span> {{ T "thisIsDown" }}
             {{ else }}
             {{ if $thisIsDisrupted }}
-              {{ T "thisIsDisrupted" }}
+              <span class="iconify" data-icon="ion:warning" data-inline="false" style="color: #cc4400; padding-top: 4px;"></span> {{ T "thisIsDisrupted" }}
             {{ else }}
             {{ if $thisIsNotice }}
-              {{ T "thisIsNotice" }}
+              <span class="iconify" data-icon="ion:build" data-inline="false" style="color: #24478f; padding-top: 4px;"></span> {{ T "thisIsNotice" }}
             {{ else }}
-              <span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span> {{ T "thisIsOk" }}
+              <!--<span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span>--> <span class="iconify" data-icon="ion:checkmark-outline" data-inline="false" style="color: #008000; padding-top: 4px;"></span> {{ T "thisIsOk" }}
             {{ end }}{{ end }}{{ end }}
           </span>
 
