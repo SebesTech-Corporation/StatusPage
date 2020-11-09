@@ -1,6 +1,6 @@
 ---
 section: issue
-title: Domain redirect to freeflarum.com
+title: Forum not working
 date: 2020-11-09T14:06:18.026Z
 resolved: false
 draft: false
