@@ -8,7 +8,7 @@ params:
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - name: ŠebesTech MultiBot
+    - name: MultiBot
       category: Main
       description: Multipurpose bot developed by ŠebesTech.
     - name: sebestik.tk GitHub
@@ -44,7 +44,7 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: Main
+    - name: ŠebesTech
       description: ""
       closed: false
     - name: Websites
