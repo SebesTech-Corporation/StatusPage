@@ -10,6 +10,8 @@ affected:
   - Forum
 severity: down
 ---
+*Identified -* Freeflarum ran into problem. Forum can be visited by sebestik.flarum.cloud
+
 *Completing -* Just some steps to resolve this incident...
 
 *Waiting -* I am decided to wait for Hyro to ask them to help (status Down)
