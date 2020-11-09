@@ -7,7 +7,7 @@ draft: false
 informational: false
 resolvedWhen: ""
 affected:
-  - ŠebesTech MultiBot
+  - MultiBot
 severity: down
 ---
 *Paused -* I am paused works on this bot for undefined duration.\
