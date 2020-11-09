@@ -46,12 +46,12 @@ params:
   categories:
     - name: Main
       description: ""
-      closed: true
+      closed: false
     - name: Websites
-      closed: true
+      closed: false
     - name: OrgsStudio
       untitled: false
-      closed: true
+      closed: false
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
