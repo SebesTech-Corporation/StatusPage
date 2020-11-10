@@ -10,6 +10,8 @@ affected:
   - Forum
 severity: down
 ---
+*Update -* Working only logins with Github and the standart logins, I will look into this issue with Hyro Tommorow {{< track "2020-11-10 23:00:00" >}}
+
 *Update* - I am working hard on it, domain now can't found IP Address. {{< track "2020-11-10 10:00:00" >}}
 
 *Waiting* - I am waiting till next day for resolve forum problems. {{< track "2020-11-09 22:11:00" >}}
