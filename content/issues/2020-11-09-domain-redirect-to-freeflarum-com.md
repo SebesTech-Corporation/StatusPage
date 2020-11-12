@@ -8,9 +8,11 @@ informational: false
 resolvedWhen: ""
 affected:
   - Forum
-severity: down
+severity: disrupted
 ---
-*Update -* Working only logins with Github and the standart logins, I will look into this issue with Hyro Tommorow {{< track "2020-11-10 23:00:00" >}}
+*Update -* Works logins using Discord, GitHub, Facebook and standart logins, I am waiting for Twitter review and Google verification, and this issue will be resolved. {{< track "2020-11-12 10:15:00" >}}
+
+*Update -* Working only logins with GitHub and the standart logins, I will look into this issue with Hyro Tommorow {{< track "2020-11-10 23:00:00" >}}
 
 *Update* - I am working hard on it, domain now can't found IP Address. {{< track "2020-11-10 10:00:00" >}}
 
