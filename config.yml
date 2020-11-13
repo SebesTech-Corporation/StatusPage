@@ -15,14 +15,14 @@ params:
       category: sebestik.tk
       description: GitHub Pages provided website (https://sebestik.tk)
     - name: Dashboard
-      description: Apache2 server provided website (hosted on RPi)
-      category: orgstechnic.tk
+      description: Apache2 server provided dashboard (hosted on RPi)
+      category: sebestik.tk
     - name: Website
       description: GitHub Pages provided website (https://orgstechnic.tk)
       category: orgstechnic.tk
     - name: Dashboard
       category: orgstechnic.tk
-      description: Apache2 server provided website (hosted on RPi)
+      description: Apache2 server provided dashboard (hosted on RPi)
     - name: OrgsTechnic
       description: Common Bot developed by OrgsStudio.
       category: OrgsStudio
