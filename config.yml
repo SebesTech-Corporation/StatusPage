@@ -42,7 +42,7 @@ params:
   brand: "#0a0c0f"
   headerTextColor: black
   logo: /img/sebestik.png
-  incidentPostsPerPage: 10
+  incidentPostsPerPage: 100
   googleAnalytics: UA-00000000-1
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
