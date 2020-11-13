@@ -7,7 +7,7 @@ draft: false
 informational: true
 resolvedWhen: ""
 affected:
-  - sebestik.tk GitHub
+  - Web
 severity: notice
 ---
 *Maintenance* - I am currently working on <https://sebestik.tk> website
