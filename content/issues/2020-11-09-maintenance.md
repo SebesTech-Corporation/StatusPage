@@ -5,7 +5,7 @@ date: 2020-11-09T10:34:29.317Z
 resolved: true
 draft: false
 informational: true
-resolvedWhen: ""
+resolvedWhen: 2020-11-13T10:47:31.740Z
 affected:
   - Web
 severity: notice
