@@ -2,10 +2,10 @@
 section: issue
 title: Maintenance
 date: 2020-11-09T10:34:29.317Z
-resolved: true
+resolved: false
 draft: false
 informational: true
-resolvedWhen: 2020-11-13T10:47:31.740Z
+resolvedWhen: ""
 affected:
   - Web
 severity: notice
