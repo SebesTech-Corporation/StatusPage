@@ -11,10 +11,10 @@ params:
     - name: MultiBot
       category: ŠebesTech
       description: Multipurpose bot developed by ŠebesTech.
-    - name: Website
+    - name: Web
       category: sebestik.tk
       description: GitHub Pages provided website (https://sebestik.tk)
-    - name: Dashboard
+    - name: Dash
       description: Apache2 server provided dashboard (hosted on RPi)
       category: sebestik.tk
     - name: Website
@@ -35,7 +35,7 @@ params:
     - name: Redirect
       category: sebestik.tk
       description: Apache2 redirect (https://r.sebestik.tk)
-    - name: Redirect
+    - name: Redirect site
       category: orgstechnic.tk
       description: Apache2 redirect (https://r.orgstechnic.tk)
   dateFormat: January 2, 2006 at 3:04 PM
