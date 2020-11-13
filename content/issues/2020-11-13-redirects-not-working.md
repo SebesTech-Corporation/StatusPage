@@ -1,9 +1,6 @@
 ---
-section: issue
-title: Redirects not working
-date: 2020-11-13T10:09:03.604Z
-resolved: false
-draft: false
+title: Redirect not working
+date: 2020-11-13T10:11:35.973Z
 informational: true
 resolvedWhen: ""
 affected:
