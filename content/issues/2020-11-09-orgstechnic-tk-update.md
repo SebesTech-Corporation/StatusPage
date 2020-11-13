@@ -7,7 +7,7 @@ draft: false
 informational: false
 resolvedWhen: ""
 affected:
-  - orgstechnic.tk GitHub
+  - Website
 severity: notice
 ---
 *Updating* - I am currently updating this page.
