@@ -1,6 +1,6 @@
 ---
 title: Redirects not working
-date: 2020-11-13T10:11:35.973Z
+date: 2020-11-13T10:38:43.451Z
 informational: false
 resolvedWhen: ""
 affected:
