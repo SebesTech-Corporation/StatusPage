@@ -5,6 +5,6 @@ informational: false
 resolvedWhen: ""
 affected:
   - Redirect
-severity: notice
+severity: down
 ---
 *Scheduled -* This project is scheduled.
