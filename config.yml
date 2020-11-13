@@ -56,8 +56,6 @@ params:
     - name: ŠebesTech
       description: ""
       closed: false
-    - name: Websites
-      closed: false
     - name: OrgsStudio
       untitled: false
       closed: false
