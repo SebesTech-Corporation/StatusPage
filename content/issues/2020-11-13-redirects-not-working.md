@@ -1,5 +1,5 @@
 ---
-title: Redirect not working
+title: Redirects not working
 date: 2020-11-13T10:11:35.973Z
 informational: true
 resolvedWhen: ""
