@@ -10,6 +10,11 @@ affected:
   - Forum
 severity: disrupted
 ---
+*Update* - Logins update: 
+
+* Twitter login availible, thanks to approvation to Twitter API. {{< track "2020-11-18 14:54:00" >}}
+* Passport login removed. {{< track "2020-11-18 14:00:00" >}}
+
 *Update -* Works logins using Discord, GitHub, Facebook and standart logins, I am waiting for Twitter review and Google verification, and this issue will be resolved. {{< track "2020-11-12 10:15:00" >}}
 
 *Update -* Working only logins with GitHub and the standart logins, I will look into this issue with Hyro Tommorow {{< track "2020-11-10 23:00:00" >}}
