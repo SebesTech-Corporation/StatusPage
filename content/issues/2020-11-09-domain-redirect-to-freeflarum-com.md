@@ -8,8 +8,9 @@ informational: false
 resolvedWhen: ""
 affected:
   - Forum
-severity: disrupted
+severity: notice
 ---
+*Update* - Not working only Steam, I will work tommorow. {{< track "2020-11-18 21:55:00" >}}\
 *Update* - Logins update: 
 
 * Twitter login availible, thanks to approvation to Twitter API. {{< track "2020-11-18 14:54:00" >}}
