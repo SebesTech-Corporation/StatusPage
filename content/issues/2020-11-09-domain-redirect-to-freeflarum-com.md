@@ -2,15 +2,18 @@
 section: issue
 title: Forum not working
 date: 2020-11-09T14:06:18.026Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: ""
+resolvedWhen: 2020-11-19T09:21:15.270Z
 affected:
   - Forum
-severity: notice
+severity: disrupted
 ---
-*Update* - Not working only Steam, I will work tommorow. {{< track "2020-11-18 21:55:00" >}}\
+*Resolved* - All is now working, thanks for your attention. {{< track "2020-11-19 10:21:00" >}}
+
+*Update* - Not working only Steam, I will work tommorow. {{< track "2020-11-18 21:55:00" >}}
+
 *Update* - Logins update: 
 
 * Twitter login availible, thanks to approvation to Twitter API. {{< track "2020-11-18 14:54:00" >}}
