@@ -8,7 +8,7 @@ informational: false
 resolvedWhen: ""
 affected:
   - MultiBot
-severity: down
+severity: disrupted
 ---
 *Update -* Beta codes now can be activated. I am not sure about activated beta codes.\
 *Investigating -* Beta code can't be claimed or activated beta codes not working. {{< track "2018-06-13 15:54:00" >}}\
