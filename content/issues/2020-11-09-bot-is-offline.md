@@ -10,7 +10,8 @@ affected:
   - MultiBot
 severity: disrupted
 ---
-*Update -* Beta codes now can be activated. I am not sure about activated beta codes.\
-*Investigating -* Beta code can't be claimed or activated beta codes not working. {{< track "2018-06-13 15:54:00" >}}\
-*Paused -* I am paused works on this bot for undefined duration.\
-*Investigating* - Bot is down and not working.
+*Resolved* - Beta codes now works properly {{< track "2020-12-16 23:35:00" >}}\
+*Update* - Beta codes now can be activated. I am not sure about activated beta codes.\
+*Investigating* - Beta code can't be claimed or activated beta codes not working. {{< track "2020-12-15 15:54:00" >}}\
+*Paused* - I am paused works on this bot for undefined duration.
+Investigating - Bot is down and not working.
