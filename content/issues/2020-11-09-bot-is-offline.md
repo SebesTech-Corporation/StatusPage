@@ -2,10 +2,10 @@
 section: issue
 title: Bot is Offline
 date: 2020-11-09T10:36:18.183Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: ""
+resolvedWhen: 2020-12-16T22:35:32.608Z
 affected:
   - MultiBot
 severity: disrupted
