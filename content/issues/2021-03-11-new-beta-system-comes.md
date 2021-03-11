@@ -5,7 +5,7 @@ date: 2021-03-11T16:48:20.569Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2021-03-11T16:48:20.681Z
+resolvedWhen: ""
 affected:
   - MultiBot
 severity: notice
