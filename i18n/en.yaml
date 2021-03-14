@@ -40,7 +40,7 @@
 - id: thisIsNotice
   translation: Maintenance
 - id: thisIsDegraded
-	translation: Degraded Performance
+  translation: Degraded Performance
 - id: thisIsOk
   translation: Operational
 
