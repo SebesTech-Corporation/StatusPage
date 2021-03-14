@@ -47,9 +47,9 @@ collections:
       - label: "Medium severity (disrupted)"
         field: severity
         pattern: 'disrupted'
-			- label: "Degraded performance"
-				field: severity
-				pattern: 'degraded'
+      - label: "Degraded performance"
+        field: severity
+        pattern: 'degraded'
       - label: "Low severity (announcement)"
         field: severity
         pattern: 'announcement'
