@@ -62,7 +62,7 @@
         {{ $thisIsDegraded := where $activeComponentIssues "Params.severity" "=" "degraded" }}
         {{ $thisIsDeprecated := where $activeComponentIssues "Params.severity" "=" "deprecated" }}
 
-        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}{{if $thisIsDeprecated}}{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}">
+        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}{{if $thisIsDeprecated}}deprecated{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}">
           <a href="{{ printf "/affected/%s/" (.name | urlize) | relURL }}" class="no-underline">
             {{ default .name .displayName }}
           </a>
