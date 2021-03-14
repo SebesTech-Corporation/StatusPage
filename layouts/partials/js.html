@@ -17,6 +17,8 @@
       document.querySelector('meta[name=theme-color]').setAttribute('content', themeDisruptedColor);
     } else if (document.body.className === 'status-degraded') {
       document.querySelector('meta[name=theme-color]').setAttribute('content', themeDegradedColor);
+    } else if (document.body.className === 'status-deprecated') {
+      document.querySelector('meta[name=theme-color]').setAttribute('content', themeDeprecatedColor);
     } else {
       document.querySelector('meta[name=theme-color]').setAttribute('content', themeNoticeColor);
     }
