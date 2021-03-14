@@ -50,6 +50,9 @@ collections:
       - label: "Degraded performance"
         field: severity
         pattern: 'degraded'
+      - label: "Deprecated"
+        field: severity
+        pattern: 'deprecated'
       - label: "Low severity (announcement)"
         field: severity
         pattern: 'announcement'
@@ -71,7 +74,8 @@ collections:
         options:
           - { label: "High (Down) ◼ ", value: "down" }
           - { label: "Medium (Disrupted) ▲", value: "disrupted" }
-          - { label: "Degraded performance 🔻", value: "degraded" }
+          - { label: "Degraded performance ▼", value: "degraded" }
+          - { label: "Deprecated ⊘", value: "deprecated" }
           - { label: "Low (Announcement) ◆", value: "notice" }
       - label: "Markdown body (sequence of events, description, post-mortem)"
         name: "body"
@@ -272,11 +276,16 @@ collections:
                 name: 'disrupted'
                 widget: 'string'
                 default: '#cc4400'
-              - label: 'Site HEX color: Degraded'
+              - label: 'Site HEX color: Degraded Performance'
                 hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #ffbf00'
                 name: 'degraded'
                 widget: 'string'
-                default: '#ffbf00' 
+                default: '#ffbf00'
+              - label: 'Site HEX color: Deprecated'
+                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #cc4400'
+                name: 'deprecated'
+                widget: 'string'
+                default: '#666666'
               - label: 'Site HEX color: Down / Offline / Major'
                 hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #e60000'
                 name: 'down'
