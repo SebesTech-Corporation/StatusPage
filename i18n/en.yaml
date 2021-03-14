@@ -22,6 +22,8 @@
   translation: Please read announcement
 - id: isDegraded
   translation: Expecting degraded performance
+- id: isDeprecated
+  translation: There is a deprecated project
 - id: isOk
   translation: All systems operational
 
@@ -41,6 +43,8 @@
   translation: Maintenance
 - id: thisIsDegraded
   translation: Degraded Performance
+- id: thisIsDeprecated
+  translation: Deprecated
 - id: thisIsOk
   translation: Operational
 
