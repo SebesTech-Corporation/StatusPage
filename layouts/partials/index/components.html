@@ -4,6 +4,7 @@
 {{ $isNotice := where $active "Params.severity" "=" "notice" }}
 {{ $isDisrupted := where $active "Params.severity" "=" "disrupted" }}
 {{ $isDown := where $active "Params.severity" "=" "down" }}
+{{ $isDegraded := where $active "Params.severity" "=" "degraded" }}
 
 <!-- Individual info -->
 <div class="categories">
@@ -57,8 +58,9 @@
         {{ $thisIsNotice := where $activeComponentIssues "Params.severity" "=" "notice" }}
         {{ $thisIsDisrupted := where $activeComponentIssues "Params.severity" "=" "disrupted" }}
         {{ $thisIsDown := where $activeComponentIssues "Params.severity" "=" "down" }}
+        {{ $thisIsDegraded := where $activeComponentIssues "Params.severity" "=" "degraded" }}
 
-        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}ok{{ end }}{{ end }}{{ end }}">
+        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}">
           <a href="{{ printf "/affected/%s/" (.name | urlize) | relURL }}" class="no-underline">
             {{ default .name .displayName }}
           </a>
@@ -83,8 +85,11 @@
             {{ if $thisIsNotice }}
               <span class="iconify" data-icon="ion:build" data-inline="false" style="color: #24478f; padding-top: 4px;"></span> {{ T "thisIsNotice" }}
             {{ else }}
+            {{ if $thisIsDegraded }}
+              {{ T "thisIsDegraded" }}
+            {{ else }}
               <!--<span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span>--> <span class="iconify" data-icon="ion:checkmark-outline" data-inline="false" style="color: #008000; padding-top: 4px;"></span> {{ T "thisIsOk" }}
-            {{ end }}{{ end }}{{ end }}
+            {{ end }}{{ end }}{{ end }}{{ end }}
           </span>
 
           {{ with .partial }}
