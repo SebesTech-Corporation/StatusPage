@@ -71,7 +71,7 @@ collections:
         options:
           - { label: "High (Down) ◼ ", value: "down" }
           - { label: "Medium (Disrupted) ▲", value: "disrupted" }
-					- { label: "Degraded performance 🔻", value: "degraded" }
+          - { label: "Degraded performance 🔻", value: "degraded" }
           - { label: "Low (Announcement) ◆", value: "notice" }
       - label: "Markdown body (sequence of events, description, post-mortem)"
         name: "body"
@@ -272,11 +272,11 @@ collections:
                 name: 'disrupted'
                 widget: 'string'
                 default: '#cc4400'
-							- label: 'Site HEX color: Degraded'
-								hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #ffbf00'
-								name: 'degraded'
-								widget: 'string'
-								default: '#ffbf00' 
+              - label: 'Site HEX color: Degraded'
+                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #ffbf00'
+                name: 'degraded'
+                widget: 'string'
+                default: '#ffbf00' 
               - label: 'Site HEX color: Down / Offline / Major'
                 hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #e60000'
                 name: 'down'
