@@ -7,8 +7,9 @@
 {{ $isDisrupted := where $active "Params.severity" "=" "disrupted" }}
 {{ $isDown := where $active "Params.severity" "=" "down" }}
 {{ $isDegraded := where $active "Params.severity" "=" "degraded" }}
+{{ $isDeprecated := where $active "Params.severity" "=" "deprecated" }}
 
-  <body class="status-homepage status-{{ if $isDown }}down{{ else }}{{ if $isDisrupted}}disrupted{{ else }}{{ if $isNotice }}notice{{ else }}{{ if $isDegraded }}degraded{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }} {{ if not .Site.Params.alwaysKeepBrandColor }}change-header-color{{ end }}">
+  <body class="status-homepage status-{{ if $isDown }}down{{ else }}{{ if $isDisrupted}}disrupted{{ else }}{{ if $isNotice }}notice{{ else }}{{ if $isDegraded }}degraded{{ else }}{{ if $isDeprecated }}deprecated{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}{{ end }} {{ if not .Site.Params.alwaysKeepBrandColor }}change-header-color{{ end }}">
     {{ partial "header" . }}
 
     <!-- Main -->
