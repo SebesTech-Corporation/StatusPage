@@ -21,6 +21,7 @@
     var themeOkColor = '{{ .Site.Params.ok }}';
     var themeNoticeColor = '{{ .Site.Params.notice }}';
     var themeDisruptedColor = '{{ .Site.Params.disrupted }}';
+    var themeDegradedColor = '{{ .Site.Params.degraded }}';
     var themeDownColor = '{{ .Site.Params.down }}';
 
 
@@ -99,6 +100,7 @@
 
     .ok { color: {{ .Site.Params.ok }}; }
     .warning { color: {{ .Site.Params.disrupted }}; }
+    .degraded { color: {{ .Site.Params.degraded }}; }
     .error { color: {{ .Site.Params.down }}; }
 
     .contain {
@@ -314,9 +316,11 @@
     }
 
     .status-disrupted .announcement-box { border: 2px solid {{ .Site.Params.disrupted }}; }
+    .status-degraded .announcement-box { border: 2px solid {{ .Site.Params.degraded }}; }
     .status-down .announcement-box { border: 2px solid {{ .Site.Params.down }}; }
     .status-notice .announcement-box { border: 2px solid {{ .Site.Params.notice }}; }
     .status-disrupted .announcement-box,
+    .status-degraded .announcement-box,
     .status-down .announcement-box,
     .status-notice .announcement-box { border-top: 0; }
 
@@ -327,6 +331,7 @@
     .component-status { float: right; }
     .component[data-status="ok"] .component-status { color: {{ .Site.Params.ok }}; }
     .component[data-status="disrupted"] .component-status { color: {{ .Site.Params.disrupted }}; }
+    .component[data-status="degraded"] .component-status { color: {{ .Site.Params.degraded }}; }
     .component[data-status="down"] .component-status { color: {{ .Site.Params.down }}; }
     .component[data-status="notice"] .component-status { color: {{ .Site.Params.notice }}; }
 
@@ -393,6 +398,8 @@
         .component-status { color: #7fff7f; }
         .component[data-status="disrupted"] 
         .component-status { color: #ffde7f; }
+        .component[data-status="degraded"]
+        .component-status { color: #ffbf00; }
         .component[data-status="notice"] 
         .component-status { color: #83a4e8; }
         .component[data-status="down"]
