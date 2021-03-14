@@ -20,6 +20,8 @@
   translation: Experiencing disruptions
 - id: isNotice
   translation: Please read announcement
+- id: isDegraded
+  translation: Expecting degraded performance
 - id: isOk
   translation: All systems operational
 
@@ -37,6 +39,8 @@
   translation: Disrupted
 - id: thisIsNotice
   translation: Maintenance
+- id: thisIsDegraded
+	translation: Degraded Performance
 - id: thisIsOk
   translation: Operational
 
