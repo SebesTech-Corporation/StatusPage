@@ -2,7 +2,7 @@
 title: Redirects not working
 date: 2020-11-13T10:38:43.451Z
 informational: false
-resolvedWhen: ""
+resolvedWhen: 2031-03-14T20:09:00.000Z
 affected:
   - Redirect
   - Redirect site
