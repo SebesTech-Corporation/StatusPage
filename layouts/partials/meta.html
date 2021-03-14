@@ -22,6 +22,7 @@
     var themeNoticeColor = '{{ .Site.Params.notice }}';
     var themeDisruptedColor = '{{ .Site.Params.disrupted }}';
     var themeDegradedColor = '{{ .Site.Params.degraded }}';
+    var themeDeprecatedColor = '{{ .Site.Params.deprecated }}';
     var themeDownColor = '{{ .Site.Params.down }}';
 
 
@@ -101,6 +102,7 @@
     .ok { color: {{ .Site.Params.ok }}; }
     .warning { color: {{ .Site.Params.disrupted }}; }
     .degraded { color: {{ .Site.Params.degraded }}; }
+    .deprecated { color: {{ .Site.Params.deprecated }}; }
     .error { color: {{ .Site.Params.down }}; }
 
     .contain {
@@ -308,6 +310,8 @@
 
     .status-ok .summary { background: {{ .Site.Params.ok }}; }
     .status-disrupted .summary, .change-header-color.status-disrupted .header { background: {{ .Site.Params.disrupted }}; }
+    .status-degraded .summary, .change-header-color.status-degraded .header { background: {{ .Site.Params.degraded }}; }
+    .status-deprecated .summary, .change-header-color.status-deprecated .header { background: {{ .Site.Params.deprecated }}; }
     .status-down .summary, .change-header-color.status-down .header { background: {{ .Site.Params.down }}; }
     .status-notice .summary, .change-header-color.status-notice .header { background: {{ .Site.Params.notice }}; }
 
@@ -317,10 +321,12 @@
 
     .status-disrupted .announcement-box { border: 2px solid {{ .Site.Params.disrupted }}; }
     .status-degraded .announcement-box { border: 2px solid {{ .Site.Params.degraded }}; }
+    .status-deprecated .announcement-box { border: 2px solid {{ .Site.Params.deprecated }}; }
     .status-down .announcement-box { border: 2px solid {{ .Site.Params.down }}; }
     .status-notice .announcement-box { border: 2px solid {{ .Site.Params.notice }}; }
     .status-disrupted .announcement-box,
     .status-degraded .announcement-box,
+    .status-deprecated .announcement-box,
     .status-down .announcement-box,
     .status-notice .announcement-box { border-top: 0; }
 
@@ -332,6 +338,7 @@
     .component[data-status="ok"] .component-status { color: {{ .Site.Params.ok }}; }
     .component[data-status="disrupted"] .component-status { color: {{ .Site.Params.disrupted }}; }
     .component[data-status="degraded"] .component-status { color: {{ .Site.Params.degraded }}; }
+    .component[data-status="deprecated"] .component-status { color: {{ .Site.Params.deprecated }}; }
     .component[data-status="down"] .component-status { color: {{ .Site.Params.down }}; }
     .component[data-status="notice"] .component-status { color: {{ .Site.Params.notice }}; }
 
@@ -400,6 +407,8 @@
         .component-status { color: #ffde7f; }
         .component[data-status="degraded"]
         .component-status { color: #ffbf00; }
+        .component[data-status="deprecated"]
+        .component-status { color: #666666; }
         .component[data-status="notice"] 
         .component-status { color: #83a4e8; }
         .component[data-status="down"]
