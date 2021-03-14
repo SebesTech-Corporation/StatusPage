@@ -62,7 +62,7 @@
         {{ $thisIsDegraded := where $activeComponentIssues "Params.severity" "=" "degraded" }}
         {{ $thisIsDeprecated := where $activeComponentIssues "Params.severity" "=" "deprecated" }}
 
-        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}{{if $thisIsDeprecated}}deprecated{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}">
+        <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}{{if $thisIsDeprecated}}deprecated{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}">
           <a href="{{ printf "/affected/%s/" (.name | urlize) | relURL }}" class="no-underline">
             {{ default .name .displayName }}
           </a>
@@ -94,7 +94,7 @@
               <span class="iconify" data-icon="cil:ban" data-inline="false" style="color: #666666; padding-top: 4px;"></span>{{ T "thisIsDeprecated" }}
             {{ else }}
               <!--<span class="iconify" data-icon="clarity:success-standard-solid" data-inline="false" style="color: #4cb324;"></span>--> <span class="iconify" data-icon="ion:checkmark-outline" data-inline="false" style="color: #008000; padding-top: 4px;"></span> {{ T "thisIsOk" }}
-            {{ end }}{{ end }}{{ end }}{{ end }}
+            {{ end }}{{ end }}{{ end }}{{ end }}{{ end }} {{ end }}
           </span>
 
           {{ with .partial }}
