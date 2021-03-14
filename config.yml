@@ -47,6 +47,7 @@ params:
   logo: /img/sebestik.png
   incidentPostsPerPage: 100
   googleAnalytics: UA-00000000-1
+  degraded: "#ffbf00"
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
