@@ -58,7 +58,7 @@
         {{ $thisIsNotice := where $activeComponentIssues "Params.severity" "=" "notice" }}
         {{ $thisIsDisrupted := where $activeComponentIssues "Params.severity" "=" "disrupted" }}
         {{ $thisIsDown := where $activeComponentIssues "Params.severity" "=" "down" }}
-        {{ $thisIsDegraded := where $activeComponentIssues "Params.severity" "=" "degraded" }}
+        {{ $thisIsDegraded := where $activeComponentIssues "Params.severity" "=" "degraded" }
 
         <div class="component" data-status="{{ if $thisIsDown }}down{{ else }}{{ if $thisIsDisrupted }}disrupted{{ else }}{{ if $thisIsNotice }}notice{{ else }}{{ if $thisIsDegraded }}degraded{{ else }}ok{{ end }}{{ end }}{{ end }}{{ end }}">
           <a href="{{ printf "/affected/%s/" (.name | urlize) | relURL }}" class="no-underline">
