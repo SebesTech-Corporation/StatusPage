@@ -51,6 +51,7 @@ params:
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
+  deprecated: "#666666"
   disrupted: "#cc4400"
   notice: "#24478f"
   incidentHistoryFormat: monthly
